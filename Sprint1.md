@@ -3,9 +3,8 @@
 
 ## Project Instruction Sheet
 
-**Project:** EduTracker – Student Performance and Attendance Analytics  
-**Sprint Duration:** March 9 – March 13  
-**Sprint Goal:** Create the database structure and implement backend functionality for **User Signup, User Login, and Student Data Management**.
+**Project:** EduTracker – Student Performance and Attendance Analytics   
+ **Goal:** Create the database structure and implement backend functionality for **User Signup, User Login, and Student Data Management**.
 
 Since the project is developed **individually**, all tasks including database design, backend development, and documentation are handled by a single developer.
 
@@ -19,7 +18,7 @@ The focus of this sprint is to build the **core database and authentication syst
 
 ---
 
-# Sprint Tasks
+# Tasks
 
 1. Create the **MySQL database** for the EduTracker system  
 2. Design the **database schema for user authentication and student records**  
@@ -81,7 +80,12 @@ The EduTracker system requires tables to store **user authentication data** and 
 ### Tables Used
 
 - Users  
-- Students  
+- Students
+- Teacher
+- marks
+- attendence
+- courses
+- otp_table 
 
 ---
 

@@ -1,7 +1,7 @@
 
 # EduTracker – Student Performance and Attendance Analytics
 
-## Project Sprint Instruction Sheet
+## Project Instruction Sheet
 
 **Project:** EduTracker – Student Performance and Attendance Analytics  
 **Sprint Duration:** March 9 – March 13  

@@ -100,6 +100,8 @@ spring.datasource.password=your_password
 
 mvn clean install
 mvn spring-boot:run
+or
+./mvnw spring-boot:run
 
 ### 
 ---

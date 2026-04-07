@@ -105,7 +105,7 @@ mvn spring-boot:run
 
 ---
 
-💻 Frontend Setup (React)
+##  💻 Frontend Setup (React)
 
 cd frontend
 npm install
@@ -127,22 +127,6 @@ Example endpoints:
 /marks
 
 /attendance
-
-
-
-
----
-
-📸 Screenshots
-
-👉 Add:
-
-Login Page
-
-Dashboard
-
-Analytics Graphs
-
 
 
 ---
@@ -170,14 +154,6 @@ Secure authentication using bcrypt
 Database design and management
 
 Data analytics implementation
-
-
-
----
-
-👩‍💻 Author
-
-Hadiah Tasneem
 
 
 ---

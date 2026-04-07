@@ -75,7 +75,6 @@ Frontend (React) → Backend (Spring Boot APIs) → Database (MySQL)
 6. Analytics are generated
 7. Results displayed on dashboard
 
-👉 Add workflow diagram here
 
 ---
 
@@ -102,63 +101,17 @@ spring.datasource.password=your_password
 mvn clean install
 mvn spring-boot:run
 
-
+### 
 ---
-
 ##  💻 Frontend Setup (React)
 
 cd frontend
 npm install
 npm run dev
-
-
 ---
 
-🔌 API Testing
 
-Use Postman to test APIs
-
-Example endpoints:
-
-/login
-
-/students
-
-/marks
-
-/attendance
-
-
----
-
-📈 Future Enhancements
-
-AI-based performance prediction
-
-Mobile application
-
-Advanced reporting system
-
-
-
----
-
-📚 Learning Outcomes
-
-Full-stack development (React + Spring Boot)
-
-REST API design
-
-Secure authentication using bcrypt
-
-Database design and management
-
-Data analytics implementation
-
-
----
-
-⭐ Conclusion
+### Conclusion
 
 This project provides a complete solution for managing student performance with secure authentication, structured data management, and powerful analytics.
 

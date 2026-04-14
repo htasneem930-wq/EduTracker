@@ -1,86 +1,117 @@
+Here is your clean **copy-paste ready Markdown file** (without future scope), properly formatted for GitHub:
 
-# 🎓 EDUTRACK-Student Performance & Analytics System
+```markdown
+# 🎓 EduTrack – Student Performance & Analytics System
 
-A full-stack web application designed to manage, track, and analyze student academic performance efficiently. The system provides role-based access for Admin, Teacher, and Student, along with powerful analytics and dashboards.
+EduTrack is a full-stack web application designed to efficiently manage, track, and analyze student academic performance. It provides **role-based access**, **secure authentication**, and **powerful analytics dashboards** for Admins, Teachers, and Students.
 
 ---
 
-## 🚀 Features
+## 🚀 Key Features
 
 ### 🔐 Authentication & Security
-- Secure login and signup system
-- Password hashing using bcrypt
-- OTP-based verification
+- Secure login & registration system  
+- Password encryption using **bcrypt**  
+- OTP-based email verification  
+- Role-based authorization (Admin / Teacher / Student)
+
+---
 
 ### 👥 Role-Based Access Control
-- Admin, Teacher, Student roles
-- Protected APIs based on user roles
+- **Admin**: Full system access  
+- **Teacher**: Manage students, marks, attendance  
+- **Student**: View personal performance & analytics  
+- Protected REST APIs for each role  
+
+---
 
 ### 📊 Student Management
-- Add, update, and manage student data
-- Assign students to classes and subjects
+- Add, update, and delete student records  
+- Assign students to classes and subjects  
+- Maintain structured academic data  
+
+---
 
 ### 📝 Marks Management
-- Add and update marks
-- Subject-wise and exam-wise records
-- Grade calculation
+- Add and update student marks  
+- Subject-wise & exam-wise performance tracking  
+- Automatic grade calculation  
+
+---
 
 ### 📅 Attendance System
-- Daily attendance tracking
-- Attendance percentage calculation
-- Monthly reports
+- Daily attendance tracking  
+- Attendance percentage calculation  
+- Monthly attendance reports  
+
+---
 
 ### 📈 Analytics Engine (Core Feature)
-- Average marks calculation
-- Rank calculation
-- Weak subject detection
-- Performance trend analysis
+- Average marks calculation  
+- Student rank generation  
+- Weak subject detection  
+- Performance trend analysis  
+
+---
 
 ### 📊 Dashboard System
-- Admin Dashboard (overview of system)
-- Teacher Dashboard (class performance)
-- Student Dashboard (personal analytics)
+- **Admin Dashboard** → System overview & analytics  
+- **Teacher Dashboard** → Class performance insights  
+- **Student Dashboard** → Personal academic analysis  
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Layer       | Technology        |
-|------------|------------------|
-| Frontend   | React.js         |
-| Backend    | Spring Boot      |
-| Database   | MySQL            |
-| Security   | bcrypt + OTP     |
-| Tools      | Postman, GitHub  |
+| Layer       | Technology          |
+|------------|--------------------|
+| Frontend   | React.js           |
+| Backend    | Spring Boot        |
+| Database   | MySQL              |
+| Security   | bcrypt + OTP       |
+| Tools      | Postman, GitHub    |
 
 ---
 
 ## 🏗️ System Architecture
 
-The system follows a client-server architecture:
+```
 
-Frontend (React) → Backend (Spring Boot APIs) → Database (MySQL)
+Frontend (React)
+↓
+Backend (Spring Boot APIs)
+↓
+Database (MySQL)
 
-👉 Add architecture diagram here (screenshot)
+```
 
 ---
 
 ## 🔄 System Workflow
 
-1. User registers and logs in
-2. Password is hashed using bcrypt
-3. Role is identified (Admin/Teacher/Student)
-4. User performs actions based on role
-5. Data is stored in database
-6. Analytics are generated
-7. Results displayed on dashboard
-
+1. User registers and logs in  
+2. Password is securely hashed using bcrypt  
+3. User role is identified (Admin / Teacher / Student)  
+4. Role-based actions are performed  
+5. Data is stored in the database  
+6. Analytics engine processes performance data  
+7. Results are displayed on dashboards  
 
 ---
 
 ## 📂 Project Structure
 
-EduTrack/ │ ├── backend/        # Spring Boot backend ├── frontend/       # React frontend │ ├── docs/           # Project documentation (optional) │ ├── README.md └── .gitignore
+```
+
+EduTrack/
+│
+├── backend/        # Spring Boot backend
+├── frontend/       # React frontend
+├── docs/           # Documentation (optional)
+├── README.md
+└── .gitignore
+
+````
 
 ---
 
@@ -90,30 +121,45 @@ EduTrack/ │ ├── backend/        # Spring Boot backend ├── frontend
 
 ```bash
 cd backend
+````
 
-Configure database in application.properties
+Configure your `application.properties`:
 
-
+```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/your_db
 spring.datasource.username=root
 spring.datasource.password=your_password
+```
 
+Run the backend:
+
+```bash
 mvn clean install
 mvn spring-boot:run
-or
+```
+
+Or using wrapper:
+
+```bash
 ./mvnw spring-boot:run
+```
 
-### 
 ---
-##  💻 Frontend Setup (React)
 
+### 💻 Frontend Setup (React)
+
+```bash
 cd frontend
 npm install
 npm run dev
+```
+
 ---
 
+## 🎯 Conclusion
 
-### Conclusion
+EduTrack provides a **complete, secure, and scalable solution** for managing student performance with structured data handling and powerful analytics. It simplifies academic tracking while offering meaningful insights for better decision-making.
 
-This project provides a complete solution for managing student performance with secure authentication, structured data management, and powerful analytics.
+```
+```
 

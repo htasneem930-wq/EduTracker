@@ -1,0 +1,19 @@
+/* App specific global styles */
+.app-container {
+  min-height: 100vh;
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  color: #64748b;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 8px;
+  transition: all 0.2s;
+}
+
+.icon-btn:hover {
+  background: #f1f5f9;
+  color: #aa3bff;
+}

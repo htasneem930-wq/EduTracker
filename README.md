@@ -1,6 +1,4 @@
-Here is your clean **copy-paste ready Markdown file** (without future scope), properly formatted for GitHub:
 
-```markdown
 # 🎓 EduTrack – Student Performance & Analytics System
 
 EduTrack is a full-stack web application designed to efficiently manage, track, and analyze student academic performance. It provides **role-based access**, **secure authentication**, and **powerful analytics dashboards** for Admins, Teachers, and Students.

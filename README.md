@@ -156,10 +156,6 @@ npm run dev
 
 ---
 
-## 🎯 Conclusion
+## 🎯 Conclusion 
 
 EduTrack provides a **complete, secure, and scalable solution** for managing student performance with structured data handling and powerful analytics. It simplifies academic tracking while offering meaningful insights for better decision-making.
-
-```
-```
-

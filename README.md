@@ -101,10 +101,10 @@ Database (MySQL)
 
 ```
 
-EduTrack/
+EduTrack/Backend
 │
-├── backend/        # Spring Boot backend
-├── frontend/       # React frontend
+├── backend-api/        # Spring Boot backend
+├── frontend-ui/       # React frontend
 ├── docs/           # Documentation (optional)
 ├── README.md
 └── .gitignore
@@ -118,7 +118,8 @@ EduTrack/
 ### 🔧 Backend Setup (Spring Boot)
 
 ```bash
-cd backend
+cd Backend
+cd backend-api
 ````
 
 Configure your `application.properties`:
@@ -147,7 +148,8 @@ Or using wrapper:
 ### 💻 Frontend Setup (React)
 
 ```bash
-cd frontend
+cd Frontend
+cd frontend-ui
 npm install
 npm run dev
 ```
